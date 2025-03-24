@@ -507,3 +507,37 @@ span {
         grid-template-columns: 1fr;
     }
 }
+
+/* More Projects Button */
+.more-projects {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.more-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 25px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    border-radius: 50px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.more-btn:hover {
+    background: var(--text-color);
+    color: var(--main-color);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 225, 255, 0.4);
+}
+
+.more-btn i {
+    transition: transform 0.3s;
+}
+
+.more-btn:hover i {
+    transform: translateX(5px);
+}
